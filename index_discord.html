@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Discord</h1>
+  <p>Qu'est ce que discord ?</p>
+</div>
+
+<div class="topnav">
+  <a href="file:///C:/Users/rapho/Desktop/dev/discord/index_discord_aide.html">Aide</a>
+  <a href="file:///C:/Users/rapho/Desktop/dev/discord/info_discord.html">Info</a>
+  <a href="file:///C:/Users/rapho/Desktop/dev/discord/suggestions_discord.html">suggestions</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>Les serveurs discord</h2>
+    <p>Il existe de nombreux serveurs discord qui proposent un peu de tout.Certains vont proposer un espace de détente et d'amusement, pour d'autres le serveur sera un espace de rencontre ou un endroit ou l'on peut regarder des films. Les serveurs discord sont biens pour faire de nouvelles rencontres, jouer avec ses potes, écouter de la musique, regarder des streams ect... </p>
+  </div>
+  
+  <div class="column middle">
+    <h2>Informations concernant Discord</h2>
+    
+    <p>Qu’est-ce que Discord, l’application la plus téléchargée en France depuis le confinement?</p>
+    <p>Créé en 2015, Discord est à l’origine un outil pensé pour le jeu vidéo en ligne.</p>
+    <p> Il permet aux joueurs d’une même partie de discuter entre eux à l’oral - chose qui était alors compliqué sur la plupart des jeux sur ordinateur.</p>
+    <p>S’il reste très prisé par la communauté des joueurs, Discord a muté au fil des années en une sorte de réseau social, permettant de communiquer aussi bien par la voix que par l’écrit.</p>
+    <p>Son fonctionnement rappelle celui des forums du début des années 2000.</p>
+    <p>Discord fonctionne par groupes privés, appelés «serveurs». </p>
+    <p>N’importe qui peut créer un serveur, et inviter des amis à le rejoindre en leur envoyant un lien. </p>
+    <p> Pour organiser les discussions, les serveurs peuvent être subdivisés en salons de discussions.</p>
+    <p> Par exemple, un Discord dédié aux fans de cinéma proposera un salon pour discuter des nouveautés en salles, un autre sur les sorties outre-Atlantique, un autre sur les films en production, etc. Les salons sont soit textuels (les échanges se font par écrit), soit vocaux.</p>
+</div>
+  
+  <div class="column side">
+    <h2>Idée de serveur à rejoindre</h2>
+    <p>Si vous cherchez un serveur pour vous amusez, faire de nouvelles rencontres, jouer a des jeux ect, nous pensons que le serveur chill and play sera parfait pour vous !</p>
+    <p>Si vous voulez rejoindre ce serveur ou si vous voulez avoir plus d'informations sur celui-ci, nous vous invitons à cliquer sur le liens en bas de la page.</p>
+  </div>
+</div>
+
+<div class="footer">
+  
+<html>
+  <head>
+  <style>
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #0f050e;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #0a030a}
+  
+  .button:active {
+    background-color: #373535;
+    box-shadow: 0 5px rgba(102, 102, 102, 0);
+    transform: translateY(4px);
+  }
+  </style>
+     </head>
+     <body>
+        <a href="file:///C:/Users/rapho/Desktop/dev/discord/index.html">
+     </body>
+  </html>
+  </style>
+  </head>
+  <body>
+  
+  <button class="button">Serveur discord</button>
+  
+  </body>
+  </html>
+  
+</div>
+  
+</body>
+</html>

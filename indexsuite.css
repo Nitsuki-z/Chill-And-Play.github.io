@@ -1,0 +1,19 @@
+body {
+    background-image: url("https://img.freepik.com/vecteurs-libre/arriere-plan-style-futuriste_23-2148497523.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 100px;
+    background-attachment: fixed;
+    background-size: 1600px;
+}
+p {
+    text-align: center;   
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+
